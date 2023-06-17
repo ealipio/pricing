@@ -1,0 +1,48 @@
+export const pricingPlans = [
+  {
+    title: 'Freelancer',
+    price: 24,
+    currency: 'USD',
+    frequency: '/month',
+    description: 'The essentials to provide your best work for clients',
+    features: [
+      '5 products',
+      'Up to 1,000 subscribers',
+      'Basic analytics',
+      '48-hour support response time',
+    ],
+    cta: 'Start your free trial',
+    mostPopular: false,
+  },
+  {
+    title: 'Startup',
+    price: 32,
+    currency: 'USD',
+    frequency: '/month',
+    description: 'The essentials to provide your best work for clients',
+    features: [
+      '5 products',
+      'Up to 1,000 subscribers',
+      'Basic analytics',
+      '48-hour support response time',
+    ],
+    cta: 'Start your trial',
+    mostPopular: true,
+  },
+  {
+    title: 'Enterprise',
+    price: 48,
+    currency: 'USD',
+    frequency: '/month',
+    description: 'The essentials to provide your best work for clients',
+    features: [
+      'Unlimited products',
+      'Unlimited subscribers',
+      'Advanced analytics',
+      'Marketing automation',
+      'Salesforce, Clearbit Reveal & Marketo integrations',
+    ],
+    cta: 'Start your trial',
+    mostPopular: false,
+  },
+];
